@@ -87,6 +87,7 @@ body{
   padding: 0;
   width: 200px;
   background-color: #161616;
+  color: #e0e0e0;
 }
 
 .indexlist a {
@@ -98,4 +99,7 @@ body{
 /* Change the link color on hover */
 .indexlist a:hover {
   background-color: #464646;
+}
+.indexlist a:visited {
+	color: #e0e0e0;
 }
