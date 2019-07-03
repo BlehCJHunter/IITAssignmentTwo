@@ -63,7 +63,7 @@ body{
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #ffe0e0;
+	background-color: #464646;
 }
 
 .profpic-1:hover .overlay {
