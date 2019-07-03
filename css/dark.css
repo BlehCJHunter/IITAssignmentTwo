@@ -47,7 +47,7 @@ body{
 }
 
 .profpic {
-	display: block;
+	display: inline-block;
 	width: 33%;
 	height: auto;
 	border-radius:50%;
