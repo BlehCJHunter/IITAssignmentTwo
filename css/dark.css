@@ -69,6 +69,7 @@ body{
 	background-color: #464646;
 	font-size: 1vw;
 	text-align: center;
+	overflow: auto;
 }
 
 .profpic-1:hover .overlay {
