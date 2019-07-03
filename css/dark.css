@@ -20,6 +20,7 @@ blink {
 body{
 	background-color: #323232;
 	color: #e0e0e0;
+	font-size: 1vw;
 }
 .highlight{
 	background-color: #464646;
