@@ -69,3 +69,7 @@ body{
 .container:hover .overlay {
 	opacity: 1;
 }
+
+.centered{
+	text-align: center;
+}
