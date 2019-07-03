@@ -45,6 +45,7 @@ body{
 	position: relative;
 	display: inline-block;
 	max-width: 33%;
+	min-width: 128px;
 }
 
 .profpic {
