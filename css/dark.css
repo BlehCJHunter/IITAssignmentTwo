@@ -48,8 +48,8 @@ body{
 
 .profpic {
 	display: block;
-	width: 100%;
-	height: auto;
+	width: 512;
+	height: 512;
 	border-radius:50%;
 }
 
