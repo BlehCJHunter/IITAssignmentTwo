@@ -44,12 +44,12 @@ body{
 .profpic-1 {
 	position: relative;
 	display: inline-block;
-	width: 33%;
+	max-width: 33%;
 }
 
 .profpic {
 	display: block;
-	max-width: 33%;
+	max-width: 100%;
 	height: auto;
 	border-radius:50%;
 }
