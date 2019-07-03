@@ -47,6 +47,7 @@ body{
 	position: relative;
 	display: inline-block;
 	max-width: 33%;
+	width: 33%;
 	min-width: 128px;
 	z-index: 1;
 }
