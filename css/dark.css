@@ -44,6 +44,7 @@ body{
 }
 
 .profpic-1 {
+    /* Mirroring thanks for w3schools here; without them, the image overlays would have taken a looooot longer */
 	position: relative;
 	display: inline-block;
 	max-width: 33%;
