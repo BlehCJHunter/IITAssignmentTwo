@@ -30,6 +30,10 @@ body{
 	color: #ffe0e0;
 }
 
+a {
+    color: #7777ff;
+}
+
 .button:link, .button:visited {
 	background-color: #606060;
 	color: #ffe0e0;
