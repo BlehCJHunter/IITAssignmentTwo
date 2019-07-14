@@ -60,9 +60,7 @@
             <!-- Code from user643011 on StackOverflow, https://stackoverflow.com/questions/291813/recommended-way-to-embed-pdf-in-html -->
             <!-- Use #page=[X] to make the document load on page [X] -->
             <object data="./documents_resources/IIT A2 - Team Project.pdf#page=2" type="application/pdf" width="100%" height="915px">
-                <embed src="./documents_resources/IIT A2 - Team Project.pdf#page=2" type="application/pdf">
-                    <p>This browser does not support PDFs. Please <a href="./documents_resources/IIT A2 - Team Project.pdf">download the PDF</a> to view it.</p>
-                </embed>
+                <p>This browser does not support PDFs. Please <a href="./documents_resources/IIT A2 - Team Project.pdf">download the PDF</a> to view it.</p>
             </object>
             <h2 class="centered">Overview and Motivation</h2>
             <p>Public hospitals in Queensland and other Australian states receive funding from Medicare and other government bodies on a per-patient-per-procedure basis (QLD Health 2018). For funding to be allocated correctly to each hospital, the procedures undertaken on a per-patient basis must be recorded and remitted to Medicare or the relevant funding body in a timely fashion. The current procedure for recording and remitting this information, called clinical coding, is extremely manual and time-consuming. This task involves an administrative worker reviewing patient charts and practitioner/nurse notes to determine what the medical condition was, which procedures were performed, and what materials were used in the process. Each condition and procedure is then assigned a code based on the Australian clinical coding standard ICD-10-AM; for example, P59.9 Jaundice in newborn (IHPA 2019). At times critical information such as the condition or procedure can be up to interpretation, due to complexity or inability to decipher clinician handwriting.</p>
@@ -84,10 +82,12 @@
                 <img src="ProjectIdeaFlow.jpg" alt="Project Idea Flow" style="max-width: 100%; object-fit: scale-down;" />
             </a>
             <p style="text-align:center;">(Click image to view a larger version)</p>
-			<p style="text-align: center;"><a href="UI_Wireframes" target="_blank">Click here to view UI wireframes</a></p>
+            <p style="text-align: center;">
+                <a href="UI_Wireframes" target="_blank">Click here to view UI wireframes</a>
+            </p>
             <p>The practitioner will be required to submit the data, after which point data entry will close and the system will return to the initial ‘treating physician identification’ query. The app will organise this data per field, initially identifying the patient from hospital records and assigning patient details, practitioner name, and date/time to a temporary working file on the device. Key words and phrases from the diagnosis, procedure and additional materials fields will then be compared to a built-in table of ICD-10-AM codes. Where matching codes are found, these will be added to the working file. The file will be summarised with the patient status. Additional notes will be transcribed directly to the end of the file, alongside a direct copy of the practitioner notes for the diagnosis, procedure and materials fields, which will be included for verification and audit purposes, with any unresolved words or phrases highlighted for review by the clinical coding team.</p>
             <p class="centered">
-            <a href="Table1.pdf" target="_blank">A possible example of the data generated can be found here</a>
+                <a href="Table1.pdf" target="_blank">A possible example of the data generated can be found here</a>
             </p>
             <p />
             <p>This data will then be remitted to an internally hosted clinical coding database via the hospital’s wireless LAN, for review by the clinical coding team.</p>
